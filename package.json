@@ -18,8 +18,7 @@
   "scripts": {
     "build": "gulp build",
     "doc": "gulp generate:doc",
-    "start": "cross-env NODE_ENV=development gulp watch",
-    "start:prod": "cross-env NODE_ENV=production gulp watch",
+    "start": "gulp watch",
     "run:test": "cross-env NODE_ENV=test gulp test",
     "tslint": "gulp tslint",
     "precommit": "lint-staged",
